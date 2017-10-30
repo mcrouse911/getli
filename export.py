@@ -4,7 +4,8 @@ from selenium.webdriver.common.keys import Keys
 import time as t
 from selenium.webdriver.common.action_chains import ActionChains
 
-## Go to this website and download the correct chromedriver
+## Go to this website (https://chromedriver.storage.googleapis.com/index.html?path=2.33/)
+## and download the correct chromedriver
 ## for your machine. After downloading, put the driver in this repo.
 
 browser = webdriver.Chrome('./chromedriver')
